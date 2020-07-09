@@ -1,0 +1,131 @@
+body {
+  background-color: #0c122c;
+  background-image: url(../images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100%;
+  text-align: center;
+}
+
+.container {
+  padding: 13% 14%;
+}
+
+/*------------- first container style-------------------- */
+.first-cont {
+  background-color: #1d2c67;
+  height: 13rem;
+  padding-left: 4%;
+  padding-right: 5%;
+  border-radius: 7px 170px 7px 7px;
+  width: 100rem;
+  position: relative;
+  right: 8.5%;
+}
+
+.logo {
+  margin-top: 17.5%;
+  text-align: left;
+}
+
+.icons {
+  position: relative;
+  right: 13px;
+  display: flex;
+  margin: 7% 4%;
+}
+
+.doc {
+  background-color: #0c122c;
+  width: 44px;
+  height: 47px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+.folder {
+  background-color: #0c122c;
+  margin-right: 10px;
+  width: 47px;
+  height: 47px;
+  border-radius: 7px;
+}
+
+.upload {
+  background-color: #0c122c;
+  border-radius: 7px;
+  width: 47px;
+  height: 47px;
+  margin-right: 10px;
+}
+
+.img-doc {
+  padding-top: 22%;
+  width: 43%;
+}
+
+.img-folder {
+  padding-top: 22%;
+  width: 55%;
+}
+
+.img-upload {
+  padding-top: 26%;
+  width: 60%;
+}
+
+
+ /*--------------- second container style ---------------*/
+
+.sec-cont {
+  margin-top: 48px;
+  background-color: #1d2c67;
+  height: 10rem;
+  position: absolute;
+  left: 47.5%;
+  border-radius: 8px;
+}
+
+.foucs {
+  font-weight: bold;
+}
+
+.text {
+  color: white;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 20px;
+  background-color: red;
+  background: linear-gradient(to right, #ff9f99, #ff6098);
+  outline: inherit;
+  border-radius: 23px;
+  margin: 5% 0;
+}
+
+
+/*--------- mobile desing------------- */
+
+@media (max-width: 992px) {
+  .sec-cont {
+    position: relative;
+    left: 0;
+  }
+
+  .first-cont {
+    position: relative;
+    right: 0;
+  }
+
+  body {
+    background-image: url(../images/bg-desktop.png);
+    background: url(../images/bg-desktop.png);
+    background-color: #0c122c;
+    background-repeat: no-repeat;
+  }
+}
